@@ -75,6 +75,8 @@
     <string name="label_next">Next</string>
     <string name="label_play">Play</string>
     <string name="label_pause">Pause</string>
+    <string name="label_rewind">Rewind</string>
+    <string name="label_forward">Forward</string>
 
     <!--ANDROID TV RELATED STRINGS-->
     <string name="app_title">Amahi TV</string>
