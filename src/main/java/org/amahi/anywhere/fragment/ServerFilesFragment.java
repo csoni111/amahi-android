@@ -694,7 +694,7 @@ public class ServerFilesFragment extends Fragment implements SwipeRefreshLayout.
 		if (!isMetadataAvailable()) {
 			files = getFilesAdapter().getItems();
 		} else {
-			files = getFilesAdapter().getItems();
+			files = getFilesMetadataAdapter().getItems();
 		}
 		for (ServerFile serverFile : files) {
 			if (serverFile.getName().equals(fileName)) {
